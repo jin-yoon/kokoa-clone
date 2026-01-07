@@ -1,3 +1,4 @@
 # Kokoa Clone Project
 
-CSS got so much BETTER!
+This is my First Project!
+Studying HTML & CSS :)
