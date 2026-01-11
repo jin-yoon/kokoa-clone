@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat with HOON - Kokoa talk</title>
+  </head>
+  <body id="chat-screen">
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>Wifi-connected</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>14:01</span>
+      </div>
+      <div class="status-bar__column">
+        <span>100%</span>
+        <i class="fa-solid fa-battery-full fa-lg"></i>
+        <i class="fa-solid fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <a href="chats.html"> <i class="fa-solid fa-angle-left fa-2x"></i></a>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">훈이</h1>
+      </div>
+      <div class="alt-header__column">
+        <span><i class="fa-solid fa-search"></i></span>
+        <span><i class="fa-solid fa-bars"></i></span>
+      </div>
+    </header>
+
+    <main class="main-screen main-chat">
+      <div class="chat__timestamp">Sunday, Jan 12, 2026</div>
+
+      <div class="message-row">
+        <img src="https://i1.ruliweb.com/img/19/10/15/16dcfa53d6f2130a.jpg" />
+        <div class="message-row__content">
+          <span class="message__author">훈이</span>
+          <div class="message__info">
+            <span class="message__bubble">짱구야! 어디야?</span>
+            <span class="message__time">11:55</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-row message-row-own">
+        <div class="message-row__content">
+          <div class="message__info">
+            <span class="message__bubble">집에 있지롱</span>
+            <span class="message__time">11:56</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row">
+        <img src="https://i1.ruliweb.com/img/19/10/15/16dcfa53d6f2130a.jpg" />
+        <div class="message-row__content">
+          <span class="message__author">훈이</span>
+          <div class="message__info">
+            <span class="message__bubble"
+              >맹구랑 만나서 놀려고 하는데 어때?</span
+            >
+            <span class="message__time">11:58</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row">
+        <img src="https://i1.ruliweb.com/img/19/10/15/16dcfa53d6f2130a.jpg" />
+        <div class="message-row__content">
+          <span class="message__author">훈이</span>
+          <div class="message__info">
+            <span class="message__bubble"
+              >너 왜 맹구 톡에는 답장하고 내꺼에는 안해....?ㅠㅠ</span
+            >
+            <span class="message__time">13:58</span>
+          </div>
+        </div>
+      </div>
+    </main>
+    <form action="" class="reply">
+      <div class="reply__column">
+        <i class="fa-regular fa-square-plus fa-xl"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="Write a message..." />
+        <i class="fa-regular fa-face-smile-beam fa-lg"></i>
+        <button>
+          <i class="fa-solid fa-arrow-up"></i>
+        </button>
+      </div>
+    </form>
+    <div id="no-mobile">
+      <span>스크린이 너무 커요!</span>
+      <img
+        src="https://item.kakaocdn.net/do/579ba1722b47f8f99e52ab4461ae447b15b3f4e3c2033bfd702a321ec6eda72c"
+      />
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/0f6fb3d353.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

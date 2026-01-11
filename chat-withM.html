@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat with HOON - Kokoa talk</title>
+  </head>
+  <body id="chat-screen">
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>Wifi-connected</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>14:01</span>
+      </div>
+      <div class="status-bar__column">
+        <span>100%</span>
+        <i class="fa-solid fa-battery-full fa-lg"></i>
+        <i class="fa-solid fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <a href="chats.html"> <i class="fa-solid fa-angle-left fa-2x"></i></a>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">맹구</h1>
+      </div>
+      <div class="alt-header__column">
+        <span><i class="fa-solid fa-search"></i></span>
+        <span><i class="fa-solid fa-bars"></i></span>
+      </div>
+    </header>
+
+    <main class="main-screen main-chat">
+      <div class="chat__timestamp">Sunday, Jan 12, 2026</div>
+      <div class="message-row message-row-own">
+        <div class="message-row__content">
+          <div class="message__info">
+            <span class="message__bubble">맹구야 놀자아아아</span>
+            <span class="message__time">11:25</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row">
+        <img
+          src="https://i.pinimg.com/736x/16/08/e4/1608e4f3e81f666437ef984884908a77.jpg"
+        />
+        <div class="message-row__content">
+          <span class="message__author">맹구</span>
+          <div class="message__info">
+            <span class="message__bubble"
+              >나 지금 숙제하고 있어. 훈이하고 이야기해봐~</span
+            >
+            <span class="message__time">11:40</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-row message-row-own">
+        <div class="message-row__content">
+          <div class="message__info">
+            <span class="message__bubble">ㅡ3ㅡ 재미없어!!</span>
+            <span class="message__time">12:01</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row message-row-own">
+        <div class="message-row__content">
+          <div class="message__info">
+            <span class="message__bubble">
+              <img
+                src="https://mblogthumb-phinf.pstatic.net/MjAyMTExMDVfMjk2/MDAxNjM2MDkxOTk0MDUw.sfk3Tr8nE5GmoUur-WSAQ7SvJUY2oZ8yIUmrXWyXFP8g.938Bx-nAyA5DHWtrFBVNpxPryTKv-8cKhLpLHgkcA3gg.GIF.teddy220/IMG_0683.GIF?type=w800"
+              />
+            </span>
+            <span class="message__time">12:01</span>
+          </div>
+        </div>
+      </div>
+    </main>
+    <form action="" class="reply">
+      <div class="reply__column">
+        <i class="fa-regular fa-square-plus fa-xl"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="Write a message..." />
+        <i class="fa-regular fa-face-smile-beam fa-lg"></i>
+        <button>
+          <i class="fa-solid fa-arrow-up"></i>
+        </button>
+      </div>
+    </form>
+    <div id="no-mobile">
+      <span>스크린이 너무 커요!</span>
+      <img
+        src="https://item.kakaocdn.net/do/579ba1722b47f8f99e52ab4461ae447b15b3f4e3c2033bfd702a321ec6eda72c"
+      />
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/0f6fb3d353.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
